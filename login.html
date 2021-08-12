@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Login Form</h1>
+            <div class="button-box">
+                <div id="btn-colour"></div>
+                <button type="button" class="btn" onclick="login()">Login</button>
+                <button type="button" class="btnn" onclick="signup()">Signup</button> 
+            </div>
+            <form id="login" class="input">
+                <input type="text" class="input-field" placeholder="Email Address" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <p><a href="#" class="forgot">Forgot password?</a></p>
+                <button type="submit" class="submit-btn">Login</button>
+                <p class="now">Not a member?<a href="#" class="up">Signup now</a></p> 
+            </form>
+            <!--<form id="signup" class="input">
+                <input type="text" class="input-field" placeholder="Email Address" required>
+                <input type="password" class="input-field" placeholder="password" required>
+                <input type="password" class="input-field" placeholder="Conform Password" required>
+                <input type="checkbox" class="cheak-box"><span>I aggree all terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>-->
+        </div>
+    </div>
+    <!--<script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("signup");
+        var z = document.getElementById("btn-colour");
+
+        function signup(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+
+        }
+
+
+    </script>-->
+</body>
+</html>

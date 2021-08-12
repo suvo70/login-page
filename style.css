@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #800080,#FF00FF);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: cornsilk;
+    padding: 5px;
+    border-radius: 20px;
+}
+.button-box{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px rgb(46, 48, 48);
+}
+h1{
+    margin: 35px 100px;
+}
+.btn{
+    padding: 10px 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    position: relative;
+    outline: rgb(63, 58, 63);
+    color: cornsilk;
+    font-size: 17px;
+}
+.btnn{
+    padding: 10px 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    position: relative;
+    outline: rgb(63, 58, 63);
+    color: rgb(15, 15, 15);
+    font-size: 17px;
+}
+#btn-colour{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 155px;
+    height: 100%;
+    background: linear-gradient(to right, #800080,#FF00FF);
+    border-radius: 10px;
+    transition: .5s;
+    color: cornsilk;
+}
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 47px;
+
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #800080,#FF00FF);
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    margin: 30px 47px;
+    color: cornsilk;
+    font-size: 17px;
+}
+.forgot{
+    margin: 47px;
+    color: #FF00FF;
+    font-size: 17px;
+}
+.cheak-box{
+    margin: 7px;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 100px;
+    position: absolute;
+}
+#login{
+    left: 0;
+}
+#signup{
+    left: 480px;
+}
+.now{
+    margin: 47px;
+    font-size: 15px;
+}
+#placeholder{
+    margin-right: 5px;
+
+}
+.up{
+    color: #FF00FF;
+    font-size: 15px;
+}
